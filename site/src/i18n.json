@@ -1,0 +1,521 @@
+{
+  "ca": {
+    "htmlLang": "ca",
+    "title": "Lloguer de la casa per un dia: calçotades i paelles | Ca La Kimberly",
+    "metaDesc": "Lloga la casa, el jardí i la piscina per un dia al Baix Penedès. Barbacoa, foc de llenya, pati cobert i cuina. Per a calçotades, paelles i aniversaris de fins a 10 persones.",
+    "kicker": "Un dia per al vostre grup",
+    "h1": "Paella, calçots i piscina, només per a vosaltres",
+    "lead": "La casa i el jardí sencers durant el dia, al Baix Penedès, a una hora de Barcelona. Cuineu, banyeu-vos, jugueu, o quedeu-vos dins si plou.",
+    "from": "des de",
+    "perDay": "per dia",
+    "ctaRequest": "Demana un dia",
+    "ctaAirbnb": "Vols dormir-hi? Reserva a Airbnb",
+    "includedTitle": "Què inclou",
+    "inc": [
+      {
+        "c": "red",
+        "t": "Barbacoa i zona de foc de llenya"
+      },
+      {
+        "c": "blue",
+        "t": "Piscina privada",
+        "s": "no climatitzada, millor de maig a octubre"
+      },
+      {
+        "c": "green",
+        "t": "Jardí amb gandules i hamaca"
+      },
+      {
+        "c": "ink",
+        "t": "Sala d'estar amb tele i jocs de taula"
+      },
+      {
+        "c": "orange",
+        "t": "Pati cobert amb taula gran"
+      },
+      {
+        "c": "yellow",
+        "t": "Cuina, plats, gots i coberts"
+      }
+    ],
+    "goodTitle": "Bo saber",
+    "good": [
+      "De 10:00 a 21:00",
+      "Les habitacions queden tancades",
+      "Música baixa a partir de les 20:00",
+      "No es pot dormir a la casa (per això, Airbnb)",
+      "Gossos benvinguts",
+      "Els nens poden jugar al jardí",
+      "Els menors a la piscina sempre amb un adult"
+    ],
+    "placeTitle": "La casa",
+    "alt": {
+      "patio": "Pati amb taula per a vuit persones",
+      "pool": "La piscina a la posta de sol",
+      "living": "Sala d'estar i menjador",
+      "kitchen": "La cuina",
+      "porch": "Façana de la casa amb porxo",
+      "patio2": "Pati cobert amb taula de fusta",
+      "hero": "Jardí amb hamaca i piscina"
+    },
+    "sizeTitle": "Quantes persones?",
+    "sizeText": "Pensem la casa pel pitjor dia: si plou, tothom cap a la sala d'estar.",
+    "size": [
+      {
+        "n": "6",
+        "t": "Còmodes"
+      },
+      {
+        "n": "8",
+        "t": "Inclosos al preu"
+      },
+      {
+        "n": "10",
+        "t": "Màxim, amb taula asseguda"
+      }
+    ],
+    "cookTitle": "Què cuineu?",
+    "cookText": "Porteu-ho tot vosaltres, o deixeu-nos-ho preparat abans d'arribar. Els preus dels extres els confirmem amb la reserva.",
+    "packs": [
+      {
+        "t": "Kit de calçotada",
+        "tag": "De novembre a abril",
+        "d": "Calçots, romesco, sarments per al foc, paper de diari i pitets. Només heu d'encendre el foc."
+      },
+      {
+        "t": "Paella",
+        "tag": "Tot l'any",
+        "d": "Paella i fogó a punt per a 10 persones. Vosaltres poseu l'arròs i la gent."
+      },
+      {
+        "t": "Barbacoa",
+        "tag": "Tot l'any",
+        "d": "Carbó i llenya a punt, la graella neta."
+      }
+    ],
+    "extrasTitle": "Extres",
+    "extras": [
+      "Paella i fogó",
+      "Llenya",
+      "Carbó",
+      "Tovalloles per a la piscina",
+      "Neteja final"
+    ],
+    "priceTitle": "Preus",
+    "priceNote": "Preus de llançament. Fins a 8 persones inclosos, 25 € per persona de més fins a 10. Dipòsit reemborsable de 200 €.",
+    "prices": {
+      "weekday": {
+        "t": "Entre setmana",
+        "d": "De dilluns a divendres, fora de temporada"
+      },
+      "weekend": {
+        "t": "Cap de setmana i temporada de calçots",
+        "d": "Caps de setmana i de novembre a abril"
+      },
+      "summer": {
+        "t": "Estiu amb piscina",
+        "d": "Caps de setmana d'estiu"
+      }
+    },
+    "howTitle": "Com funciona",
+    "how": [
+      {
+        "t": "Envieu la sol·licitud",
+        "d": "Dia, persones i què voleu cuinar."
+      },
+      {
+        "t": "Us confirmem en 24 h",
+        "d": "Mirem el calendari i us diem si el dia està lliure."
+      },
+      {
+        "t": "Pagueu i rebeu l'adreça",
+        "d": "L'adreça i les instruccions d'accés s'envien un cop pagat."
+      },
+      {
+        "t": "Gaudiu del dia",
+        "d": "De 10:00 a 21:00. Retornem el dipòsit després de revisar la casa."
+      }
+    ],
+    "rulesTitle": "Normes de la casa",
+    "rules": [
+      "Música baixa a partir de les 20:00 i fi de la festa a les 21:00, per respecte als veïns.",
+      "El foc de llenya segueix la normativa catalana contra incendis. Els dies de risc alt cuinem amb gas.",
+      "La piscina no té socorrista. Els nens sempre amb un adult."
+    ],
+    "formTitle": "Demana el teu dia",
+    "formLead": "Us responem en 24 h. Encara no es paga res.",
+    "f": {
+      "name": "Nom",
+      "email": "Correu electrònic",
+      "phone": "Telèfon o WhatsApp",
+      "date": "Dia desitjat",
+      "date2": "Dia alternatiu (opcional)",
+      "people": "Persones",
+      "occasion": "Ocasió",
+      "extras": "Extres que us interessen",
+      "msg": "Qualsevol cosa que vulgueu explicar",
+      "consent": "Accepto que feu servir les meves dades només per respondre aquesta sol·licitud.",
+      "submit": "Envia la sol·licitud"
+    },
+    "occasions": [
+      "Calçotada",
+      "Paella",
+      "Barbacoa",
+      "Aniversari",
+      "Altres"
+    ],
+    "formFine": "Confirmem en 24 h i després pagueu. L'adreça es comparteix un cop pagat.",
+    "thanksTitle": "Gràcies, ho hem rebut",
+    "thanksText": "Us responem en 24 h per dir-vos si el dia està lliure.",
+    "back": "Torna a la pàgina",
+    "footer": "Ca La Kimberly. Lloguer de la casa per un dia al Baix Penedès.",
+    "rating": "valoració a Airbnb",
+    "langLabel": "Idioma"
+  },
+  "es": {
+    "htmlLang": "es",
+    "title": "Alquiler de la casa por un día: calçotadas y paellas | Ca La Kimberly",
+    "metaDesc": "Alquila la casa, el jardín y la piscina por un día en el Baix Penedès. Barbacoa, fuego de leña, patio cubierto y cocina. Para calçotadas, paellas y cumpleaños de hasta 10 personas.",
+    "kicker": "Un día para tu grupo",
+    "h1": "Paella, calçots y piscina, solo para vosotros",
+    "lead": "La casa y el jardín enteros durante el día, en el Baix Penedès, a una hora de Barcelona. Cocinad, bañaos, jugad, o quedaos dentro si llueve.",
+    "from": "desde",
+    "perDay": "por día",
+    "ctaRequest": "Pide un día",
+    "ctaAirbnb": "¿Quieres dormir? Reserva en Airbnb",
+    "includedTitle": "Qué incluye",
+    "inc": [
+      {
+        "c": "red",
+        "t": "Barbacoa y zona de fuego de leña"
+      },
+      {
+        "c": "blue",
+        "t": "Piscina privada",
+        "s": "sin climatizar, mejor de mayo a octubre"
+      },
+      {
+        "c": "green",
+        "t": "Jardín con tumbonas y hamaca"
+      },
+      {
+        "c": "ink",
+        "t": "Salón con tele y juegos de mesa"
+      },
+      {
+        "c": "orange",
+        "t": "Patio cubierto con mesa grande"
+      },
+      {
+        "c": "yellow",
+        "t": "Cocina, platos, vasos y cubiertos"
+      }
+    ],
+    "goodTitle": "Bueno saber",
+    "good": [
+      "De 10:00 a 21:00",
+      "Los dormitorios quedan cerrados",
+      "Música baja a partir de las 20:00",
+      "No se puede dormir en la casa (para eso, Airbnb)",
+      "Perros bienvenidos",
+      "Los niños pueden jugar en el jardín",
+      "Los menores en la piscina siempre con un adulto"
+    ],
+    "placeTitle": "La casa",
+    "alt": {
+      "patio": "Patio con mesa para ocho personas",
+      "pool": "La piscina al atardecer",
+      "living": "Salón y comedor",
+      "kitchen": "La cocina",
+      "porch": "Fachada de la casa con porche",
+      "patio2": "Patio cubierto con mesa de madera",
+      "hero": "Jardín con hamaca y piscina"
+    },
+    "sizeTitle": "¿Cuántas personas?",
+    "sizeText": "Pensamos la casa para el peor día: si llueve, todo el mundo al salón.",
+    "size": [
+      {
+        "n": "6",
+        "t": "Cómodos"
+      },
+      {
+        "n": "8",
+        "t": "Incluidos en el precio"
+      },
+      {
+        "n": "10",
+        "t": "Máximo, comiendo sentados"
+      }
+    ],
+    "cookTitle": "¿Qué vais a cocinar?",
+    "cookText": "Traedlo todo vosotros, o dejadnos que lo preparemos antes de que lleguéis. Los precios de los extras los confirmamos con la reserva.",
+    "packs": [
+      {
+        "t": "Kit de calçotada",
+        "tag": "De noviembre a abril",
+        "d": "Calçots, romesco, sarmientos para el fuego, papel de periódico y baberos. Solo tenéis que encender el fuego."
+      },
+      {
+        "t": "Paella",
+        "tag": "Todo el año",
+        "d": "Paellera y fogón listos para 10 personas. Vosotros ponéis el arroz y la gente."
+      },
+      {
+        "t": "Barbacoa",
+        "tag": "Todo el año",
+        "d": "Carbón y leña listos, la parrilla limpia."
+      }
+    ],
+    "extrasTitle": "Extras",
+    "extras": [
+      "Paellera y fogón",
+      "Leña",
+      "Carbón",
+      "Toallas para la piscina",
+      "Limpieza final"
+    ],
+    "priceTitle": "Precios",
+    "priceNote": "Precios de lanzamiento. Hasta 8 personas incluidas, 25 € por persona de más hasta 10. Depósito reembolsable de 200 €.",
+    "prices": {
+      "weekday": {
+        "t": "Entre semana",
+        "d": "De lunes a viernes, fuera de temporada"
+      },
+      "weekend": {
+        "t": "Fin de semana y temporada de calçots",
+        "d": "Fines de semana y de noviembre a abril"
+      },
+      "summer": {
+        "t": "Verano con piscina",
+        "d": "Fines de semana de verano"
+      }
+    },
+    "howTitle": "Cómo funciona",
+    "how": [
+      {
+        "t": "Enviad la solicitud",
+        "d": "Día, personas y qué queréis cocinar."
+      },
+      {
+        "t": "Confirmamos en 24 h",
+        "d": "Miramos el calendario y os decimos si el día está libre."
+      },
+      {
+        "t": "Pagáis y recibís la dirección",
+        "d": "La dirección y las instrucciones de acceso se envían una vez pagado."
+      },
+      {
+        "t": "Disfrutad del día",
+        "d": "De 10:00 a 21:00. Devolvemos el depósito tras revisar la casa."
+      }
+    ],
+    "rulesTitle": "Normas de la casa",
+    "rules": [
+      "Música baja a partir de las 20:00 y fin de la fiesta a las 21:00, por respeto a los vecinos.",
+      "El fuego de leña sigue la normativa catalana contra incendios. Los días de riesgo alto cocinamos con gas.",
+      "La piscina no tiene socorrista. Los niños siempre con un adulto."
+    ],
+    "formTitle": "Pide tu día",
+    "formLead": "Respondemos en 24 h. Todavía no se paga nada.",
+    "f": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "phone": "Teléfono o WhatsApp",
+      "date": "Día deseado",
+      "date2": "Día alternativo (opcional)",
+      "people": "Personas",
+      "occasion": "Ocasión",
+      "extras": "Extras que os interesan",
+      "msg": "Cualquier cosa que queráis contarnos",
+      "consent": "Acepto que uséis mis datos solo para responder a esta solicitud.",
+      "submit": "Enviar la solicitud"
+    },
+    "occasions": [
+      "Calçotada",
+      "Paella",
+      "Barbacoa",
+      "Cumpleaños",
+      "Otros"
+    ],
+    "formFine": "Confirmamos en 24 h y después pagáis. La dirección se comparte una vez pagado.",
+    "thanksTitle": "Gracias, lo hemos recibido",
+    "thanksText": "Os respondemos en 24 h para deciros si el día está libre.",
+    "back": "Volver a la página",
+    "footer": "Ca La Kimberly. Alquiler de la casa por un día en el Baix Penedès.",
+    "rating": "valoración en Airbnb",
+    "langLabel": "Idioma"
+  },
+  "en": {
+    "htmlLang": "en",
+    "title": "Rent the house for a day: calçotadas and paellas | Ca La Kimberly",
+    "metaDesc": "Rent the house, garden and pool for the day in the Baix Penedès. Barbecue, wood fire, covered patio and kitchen. For calçotadas, paellas and birthdays, up to 10 people.",
+    "kicker": "A day for your group",
+    "h1": "Paella, calçots and the pool, all to yourselves",
+    "lead": "The whole house and garden for the day, in the Baix Penedès, about an hour from Barcelona. Cook, swim, play, or stay inside if it rains.",
+    "from": "from",
+    "perDay": "per day",
+    "ctaRequest": "Request a day",
+    "ctaAirbnb": "Stay the night? Book on Airbnb",
+    "includedTitle": "What is included",
+    "inc": [
+      {
+        "c": "red",
+        "t": "Barbecue and wood fire area"
+      },
+      {
+        "c": "blue",
+        "t": "Private pool",
+        "s": "not heated, best May to October"
+      },
+      {
+        "c": "green",
+        "t": "Garden with sun loungers and a hammock"
+      },
+      {
+        "c": "ink",
+        "t": "Living room with TV and board games"
+      },
+      {
+        "c": "orange",
+        "t": "Covered patio with a big table"
+      },
+      {
+        "c": "yellow",
+        "t": "Kitchen, plates, glasses and cutlery"
+      }
+    ],
+    "goodTitle": "Good to know",
+    "good": [
+      "10:00 to 21:00",
+      "Bedrooms stay closed",
+      "Music low after 20:00",
+      "No overnight stay (book that on Airbnb)",
+      "Dogs welcome",
+      "Kids can play in the garden",
+      "Children at the pool always with an adult"
+    ],
+    "placeTitle": "The place",
+    "alt": {
+      "patio": "Patio with a table for eight",
+      "pool": "The pool at sunset",
+      "living": "Living and dining room",
+      "kitchen": "The kitchen",
+      "porch": "Front of the house with its porch",
+      "patio2": "Covered patio with a wooden table",
+      "hero": "Garden with a hammock and the pool"
+    },
+    "sizeTitle": "How many people?",
+    "sizeText": "We size the house for the worst day: if it rains, everyone fits in the living room.",
+    "size": [
+      {
+        "n": "6",
+        "t": "Comfortable"
+      },
+      {
+        "n": "8",
+        "t": "Included in the price"
+      },
+      {
+        "n": "10",
+        "t": "Maximum, seated meal"
+      }
+    ],
+    "cookTitle": "What are you cooking?",
+    "cookText": "Bring everything yourself, or let us set it up before you arrive. We confirm extras prices with your booking.",
+    "packs": [
+      {
+        "t": "Calçotada kit",
+        "tag": "November to April",
+        "d": "Calçots, romesco, vine shoots for the fire, newspaper and bibs. You just light it."
+      },
+      {
+        "t": "Paella",
+        "tag": "All year",
+        "d": "Paella pan and burner ready for 10 people. You bring the rice and the people."
+      },
+      {
+        "t": "Barbecue",
+        "tag": "All year",
+        "d": "Charcoal and firewood ready, grill cleaned."
+      }
+    ],
+    "extrasTitle": "Extras",
+    "extras": [
+      "Paella pan and burner",
+      "Firewood",
+      "Charcoal",
+      "Pool towels",
+      "Cleaning after"
+    ],
+    "priceTitle": "Prices",
+    "priceNote": "Launch prices. Up to 8 people included, 25 EUR per extra person up to 10. Refundable deposit of 200 EUR.",
+    "prices": {
+      "weekday": {
+        "t": "Weekdays",
+        "d": "Monday to Friday, off-peak"
+      },
+      "weekend": {
+        "t": "Weekends and calçot season",
+        "d": "Weekends and November to April"
+      },
+      "summer": {
+        "t": "Summer with the pool",
+        "d": "Summer weekends"
+      }
+    },
+    "howTitle": "How it works",
+    "how": [
+      {
+        "t": "Send a request",
+        "d": "Day, number of people and what you want to cook."
+      },
+      {
+        "t": "We confirm within 24 h",
+        "d": "We check the calendar and tell you if the day is free."
+      },
+      {
+        "t": "Pay and get the address",
+        "d": "The address and access instructions are sent once you have paid."
+      },
+      {
+        "t": "Enjoy the day",
+        "d": "10:00 to 21:00. We return the deposit after checking the house."
+      }
+    ],
+    "rulesTitle": "House rules",
+    "rules": [
+      "Music low after 20:00 and the party ends at 21:00, out of respect for the neighbours.",
+      "Wood fires follow Catalan fire regulations. On high fire-risk days we cook on gas.",
+      "The pool has no lifeguard. Children always with an adult."
+    ],
+    "formTitle": "Request your day",
+    "formLead": "We reply within 24 h. You pay nothing yet.",
+    "f": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone or WhatsApp",
+      "date": "Preferred day",
+      "date2": "Backup day (optional)",
+      "people": "People",
+      "occasion": "Occasion",
+      "extras": "Extras you are interested in",
+      "msg": "Anything you want to tell us",
+      "consent": "I agree that you use my details only to answer this request.",
+      "submit": "Send request"
+    },
+    "occasions": [
+      "Calçotada",
+      "Paella",
+      "Barbecue",
+      "Birthday",
+      "Other"
+    ],
+    "formFine": "We confirm within 24 h, then you pay. The address is shared after payment.",
+    "thanksTitle": "Thank you, we got it",
+    "thanksText": "We will reply within 24 h to tell you if the day is free.",
+    "back": "Back to the page",
+    "footer": "Ca La Kimberly. The house for a day in the Baix Penedès.",
+    "rating": "rating on Airbnb",
+    "langLabel": "Language"
+  }
+}

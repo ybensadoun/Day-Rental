@@ -1,0 +1,60 @@
+{
+  "_doc": "Offer facts of the day rental. House facts, brand, logo and photos are NOT here: build.mjs reads them from the guide folder (see GUIDE in build.mjs). Prices follow day-rental-brief.md (proposal, to test).",
+  "siteUrl": "https://ca-la-kimberly-days.netlify.app",
+  "hours": {
+    "from": "10:00",
+    "to": "21:00"
+  },
+  "capacity": {
+    "comfortable": 6,
+    "included": 8,
+    "max": 10
+  },
+  "extraPersonEur": 25,
+  "depositEur": 200,
+  "prices": [
+    {
+      "key": "weekday",
+      "eur": 250
+    },
+    {
+      "key": "weekend",
+      "eur": 350
+    },
+    {
+      "key": "summer",
+      "eur": 400
+    }
+  ],
+  "images": {
+    "hero": "guide/garden-3.jpg",
+    "gallery": [
+      {
+        "file": "guide/patio-1.jpg",
+        "alt": "patio"
+      },
+      {
+        "file": "guide/pool-7.jpg",
+        "alt": "pool"
+      },
+      {
+        "file": "guide/living-1.jpg",
+        "alt": "living"
+      },
+      {
+        "file": "guide/kitchen-2.jpg",
+        "alt": "kitchen"
+      },
+      {
+        "file": "guide/porch-3.jpg",
+        "alt": "porch"
+      },
+      {
+        "file": "guide/patio-5.jpg",
+        "alt": "patio2"
+      }
+    ],
+    "share": "kimberly-art.jpg"
+  },
+  "airbnbUtm": "utm_source=days&utm_medium=site&utm_campaign=stay-the-night"
+}

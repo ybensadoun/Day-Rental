@@ -1,0 +1,10 @@
+# Netlify project: ca-la-kimberly-days (https://ca-la-kimberly-days.netlify.app)
+# Built from the private GitHub repo ca-la-kimberly-days, base directory "site".
+# Logo, photos and house facts come from the guide in the public repo ybensadoun/guest-guides
+# (one master copy), fetched at build time. Locally, build.mjs finds the guide next door instead.
+[build]
+  command = "rm -rf /tmp/guest-guides && git clone --depth 1 https://github.com/ybensadoun/guest-guides /tmp/guest-guides && CLK_GUIDE=/tmp/guest-guides/sites/ca-la-kimberly node build.mjs"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
