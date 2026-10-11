@@ -1,5 +1,5 @@
 # Netlify project: ca-la-kimberly-days (https://ca-la-kimberly-days.netlify.app)
-# Built from the private GitHub repo ca-la-kimberly-days, base directory "site".
+# Built from the GitHub repo ybensadoun/Day-Rental (public), branch main, base directory "site".
 # Logo, photos and house facts come from the guide in the public repo ybensadoun/guest-guides
 # (one master copy), fetched at build time. Locally, build.mjs finds the guide next door instead.
 [build]

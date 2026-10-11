@@ -5,7 +5,7 @@ Static landing page and request form for the day rental (calçotadas, paellas, b
 ## Build
     node build.mjs
 
-No dependencies. Output goes to `dist/` (gitignored). Publish `dist/` by dragging it onto the Netlify project `ca-la-kimberly-days` (https://ca-la-kimberly-days.netlify.app). The request form uses Netlify Forms.
+No dependencies. Output goes to `dist/` (gitignored). Netlify builds it from GitHub (repo ybensadoun/Day-Rental, base directory `site`): commit, then Push origin in GitHub Desktop. Live at https://ca-la-kimberly-days.netlify.app. The request form uses Netlify Forms.
 
 ## Where things come from
 - House facts, logo, favicon and photos: read at build time from the guide, `Guest Guides/sites/ca-la-kimberly/` in the same Ca La Kimberly folder (found relative to this folder; override with `CLK_GUIDE=/path`). Copied into `dist/img/` only. Never committed here.
