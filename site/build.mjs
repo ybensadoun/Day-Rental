@@ -15,8 +15,15 @@ const i18n = readJson(path.join(here, "src", "i18n.json"));
 const site = readJson(path.join(GUIDE, "site.json"));
 const housePage = readJson(path.join(GUIDE, "content", "house-page.json"));
 
-const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-const eur = (n) => `${n} €`;
+// Typography (Guest Guides/docs/TYPOGRAPHY.md). typo() is the language-independent part of the engine's
+// typo() (engine/src/i18n.js): no-break space between a number and its unit or symbol (24 h, 25 €).
+const NB = "\u00A0";
+const typo = (s) => String(s)
+  .replace(/(\d)[ \u00A0](km|m|cm|mm|min|h|kg|g|%|€|°C|°)(?=$|[\s.,;:!?)\]»”“])/g, "$1" + NB + "$2")
+  .replace(/€ (?=\d)/g, "€" + NB);
+const esc = (s) => typo(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+const LOCALES = { ca: "ca-ES", es: "es-ES", en: "en-GB" };
+const eur = (n, l) => new Intl.NumberFormat(LOCALES[l], { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(n);
 
 // ---- copy assets from the guide (read only) ----
 try { fs.rmSync(OUT, { recursive: true, force: true }); } catch (e) { console.warn("Could not clear dist/ (" + e.code + "), overwriting files instead."); }
@@ -38,6 +45,22 @@ const img = {
 fs.copyFileSync(path.join(here, "src", "style.css"), path.join(OUT, "style.css"));
 
 const LANGS = ["ca", "es", "en"];
+
+// Same checks as the engine's check-content.js: the build fails on a typography error.
+const errors = [];
+const walk = (v, l, w) => {
+  if (Array.isArray(v)) return v.forEach((x, i) => walk(x, l, `${w}[${i}]`));
+  if (v && typeof v === "object") return Object.entries(v).forEach(([k, x]) => walk(x, l, `${w}.${k}`));
+  if (typeof v !== "string") return;
+  if (/[\u2014\u2013]/.test(v)) errors.push(`${w} (${l}) em or en dash, use a comma or a period`);
+  if (l === "es") for (const x of v.split(/(?<=[.?!])\s+/)) {
+    if (x.includes("?") && !x.includes("¿")) errors.push(`${w} (es) question without ¿: ${x.slice(0, 60)}`);
+    if (x.includes("!") && !x.includes("¡")) errors.push(`${w} (es) exclamation without ¡: ${x.slice(0, 60)}`);
+  }
+  if (l === "ca" && /l[.•∙ŀ⋅]l/i.test(v)) errors.push(`${w} (ca) use the punt volat l·l`);
+};
+for (const l of LANGS) walk(i18n[l], l, l);
+if (errors.length) { console.error("Typography errors (docs/TYPOGRAPHY.md):\n" + errors.join("\n")); process.exit(1); }
 const base = (l) => (l === "ca" ? "/" : `/${l}/`);
 const thanks = (l) => `${base(l)}thanks/`;
 const airbnb = `${housePage.url}?${offer.airbnbUtm}`;
@@ -78,7 +101,7 @@ function page(l) {
   const size = t.size.map((s) => `<div><b>${s.n}</b><span>${esc(s.t)}</span></div>`).join("");
   const packs = t.packs.map((p) => `<article class="pack"><em>${esc(p.tag)}</em><h3>${esc(p.t)}</h3><p>${esc(p.d)}</p></article>`).join("");
   const extras = t.extras.map((x) => `<li>${esc(x)}</li>`).join("");
-  const prices = offer.prices.map((p) => `<div class="prow"><div><b>${esc(t.prices[p.key].t)}</b><small>${esc(t.prices[p.key].d)}</small></div><strong>${eur(p.eur)}</strong></div>`).join("");
+  const prices = offer.prices.map((p) => `<div class="prow"><div><b>${esc(t.prices[p.key].t)}</b><small>${esc(t.prices[p.key].d)}</small></div><strong>${eur(p.eur, l)}</strong></div>`).join("");
   const how = t.how.map((h, i) => `<li><span class="n">${i + 1}</span><div><b>${esc(h.t)}</b><p>${esc(h.d)}</p></div></li>`).join("");
   const rules = t.rules.map((r) => `<li>${esc(r)}</li>`).join("");
   const occ = t.occasions.map((o) => `<option>${esc(o)}</option>`).join("");
@@ -90,7 +113,7 @@ function page(l) {
 ${topbar(l, t, "home")}
 <main>
 <section class="hero">
-  <div class="hero-img"><img src="${img.hero}" alt="${esc(t.alt.hero)}" fetchpriority="high" width="632" height="474"><div class="disc"><small>${esc(t.from)}</small><b>${eur(minPrice)}</b><small>${esc(t.perDay)}</small></div></div>
+  <div class="hero-img"><img src="${img.hero}" alt="${esc(t.alt.hero)}" fetchpriority="high" width="632" height="474"><div class="disc"><small>${esc(t.from)}</small><b>${eur(minPrice, l)}</b><small>${esc(t.perDay)}</small></div></div>
   <div class="hero-txt"><p class="kicker">${esc(t.kicker)}</p><h1>${esc(t.h1)}</h1><p class="lead">${esc(t.lead)}</p>
     <div class="ctas"><a class="btn" href="#request">${esc(t.ctaRequest)}</a><a class="btn alt" href="${airbnb}" rel="noopener">${esc(t.ctaAirbnb)}</a></div>${rating}</div>
 </section>

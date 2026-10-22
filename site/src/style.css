@@ -6,6 +6,7 @@ body{margin:0;background:var(--paper);color:var(--ink);font-family:Jost,system-u
 img{max-width:100%;display:block}
 a{color:inherit}
 h1,h2,h3{line-height:1.08;margin:0}
+p,li,small,b,label,h2,h3,.lead{overflow-wrap:break-word;-webkit-hyphens:auto;hyphens:auto}
 h2{font-size:28px;margin-bottom:12px}
 .sub{font-size:20px;margin:22px 0 10px}
 .bar{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 16px;background:var(--white);border-bottom:2px solid var(--ink)}

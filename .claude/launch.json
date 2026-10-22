@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "days-dist",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["-e", "const h=require('http'),f=require('fs'),p=require('path');const R=p.resolve('site/dist');const T={'.html':'text/html; charset=utf-8','.css':'text/css','.png':'image/png','.jpg':'image/jpeg','.txt':'text/plain'};h.createServer((q,s)=>{let u=decodeURIComponent(q.url.split('?')[0]);let x=p.join(R,u);if(u.endsWith('/'))x=p.join(x,'index.html');f.readFile(x,(e,d)=>{if(e){s.writeHead(404);return s.end('404')}s.writeHead(200,{'content-type':T[p.extname(x)]||'application/octet-stream'});s.end(d)})}).listen(process.env.PORT||4173)"],
+      "port": 4173
+    }
+  ]
+}
